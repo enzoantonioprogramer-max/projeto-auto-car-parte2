@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <header>
+        <h1>Login</h1>
+        <figure><img src="../images/login.jpeg" alt="" width="400"></figure>
+    </header>
+    <nav>
+      <a class="a" href="./esqueciMinhaSenha.html" target="_blank">Esqueceu sua senha?</a>
+      <a class="a" href="./cadastro.html" target="_blank">Faça o cadastro</a>
+      <a class="a" href="../index.html" target="_blank">Principal</a>
+      </nav>
+      
+      <hr>
+    <main>
+        
+        <form class="form1" action="../index.html" onsubmit="alert(`Seu login foi efetuado com sucesso`)">
+            <h2>Preencha seu Email</h2>
+            <input type="email" placehoder="EMAIL" maxlength="50" required>
+            <h2>Preencha sua Senha</h2>
+            <input type="password" placehoder="EMAIL" maxlength="25" required>
+            <button type="submit">Entrar</button>
+            <button type="reset">Limpar</button>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>

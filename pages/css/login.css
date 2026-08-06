@@ -1,0 +1,30 @@
+.form1 {
+    display: flex;
+    align-items: center;
+    border: solid;
+    border-radius: 12px;
+    flex-direction: column;
+}
+
+figure {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    border-radius: 12px;
+    border: solid;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.a {
+    color: white;
+}
+html {
+    background-color: gray;
+}
+

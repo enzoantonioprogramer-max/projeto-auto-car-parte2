@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esqueceu sua senha?</title>
+    <link rel="stylesheet" href="./css/esqueci.css">
+</head>
+<body>
+    <header>
+        <h1>Recuperação de senha</h1>
+        <img src="../images/esqueceuSenha.jpg" width="400">
+    </header>
+    <nav>
+    <a href="./login.html" target="_blank">Faça o login</a>
+      <a href="./cadastro.html" target="_blank">Faça o cadastro</a>
+      <a href="../index.html" target="_blank">Principal</a>
+      </nav>
+      <hr>
+    <main>
+        <h3>
+
+Olá! Para concluir seu cadastro, por favor preencha seu e-mail e defina uma nova senha. Essas informações serão utilizadas para acessar sua conta com segurança.
+
+Se precisar de ajuda durante o processo, estamos à disposição!
+</h3>
+        <hr>
+
+        <form action="./login.html" onsubmit="alert(`Um email de recuperação foi enviado para o seu email`)">
+            <h2>Preencha seu Email</h2>
+            <input type="email" placehoder="EMAIL" maxlength="50" required>
+            <h2>Defina uma nova Senha</h2>
+            <input type="password" placehoder="Senha" maxlength="25" required>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>

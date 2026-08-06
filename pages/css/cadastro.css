@@ -1,0 +1,30 @@
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    color: white;
+}
+figure {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    border-radius: 12px;
+    border: solid;
+}
+form {    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+html {
+    background-color: gray;
+}
+input {
+    border: none;
+    border-radius: 12px;
+}

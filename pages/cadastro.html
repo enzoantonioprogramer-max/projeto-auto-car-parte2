@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="./css/cadastro.css">
+  </head>
+  <body>
+    <header>
+      <h1>Seu Cadastro</h1>
+      <figure><img src="../images/cadastroIcone.jpg" width="400"></figure>
+    </header>
+    <nav>
+     <a href="../index.html" target="_blank">Principal</a>
+     
+    </nav>
+    <hr>
+    <main>
+      <form action="./login.html" onsubtit="alert(`Cadastro realizado com sucesso!`)">
+      <h3>Para finalizar seu cadastro, preencha as informações solicitadas para criar sua conta e acessar nossos serviços com segurança.</h3>
+      <h2>Preencha seu Nome completo </h2>
+      <input type="text" placeholder="NOME" required minlength="3">
+      <h2>Preencha seu Email</h2>
+      <input type="email" placeholder="EMAIL" required>
+      <h2>Preencha sua Senha</h2>
+      <input type="password" placeholder="SENHA" required>
+      <h2>Confirme sua Senha</h2>
+      <input type="password" placeholder="CONFIRME SUA SENHA" required>
+      <h2>Preencha seu RG</h2>
+      <input type="text" placeholder="PREENCHA RG" required
+      minlength="9" maxlength="9">
+      <h2>Preencha seu CPF</h2>
+      <input type="text" placeholder="PREENCHA CPF" required minlength="11" maxlength="11">
+      <h2>Endereço</h2>
+      <input type="text" placeholder="ENDEREÇO" required>
+      <h2>CEP</h2>
+      <input type="text" required placeholder="CEP" minlength="8" maxlength="8">
+      <h2>Cidade</h2>
+      <input type="text" placeholder="CIDADE" required>
+      <h2>Estado</h2>
+      <input type="text" placeholder="ESTADO" required>
+      <h2>País</h2>
+      <input type="text" required placeholder="PAÍS">
+      <h2>Data de nascimento</h2>
+      <input type="date" required placeholder="NASCIMENTO">
+      <button type="submit">Cadastrar</button>
+      <button type="reset">Limpar</button>
+    </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>

@@ -1,19 +1,21 @@
 * {
-    font-family: 'Arial Narrow Bold', sans-serif;
+    font-family: sans-serif;
 }
 
 html {
-    font-family: 'Arial Narrow Bold', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: azure;
     justify-content: center;
 }
+#headerImage{
+  
+    padding-left: 100px ;
+}
 
 .li {
-    border: solid 2px;
-    border-radius: 12px;
+  
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -25,10 +27,53 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
-    border: solid;
-    border-radius: 12px;
+   
+    border-radius: 1000px;
+    padding: 50px;
 }
  button {
     border: none;
     border-radius: 12px;
+    background-color:black;
+    width: 100px;
+    line-height: 20px;
+ }
+ img{
+    border-radius: 24px;
+
+    
+ }
+ a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 24px;
+    line-height: 20px;
+  
+ }
+ .link{
+    text-decoration: none;
+    background-color: black;
+    color: rgb(234, 229, 229);
+    border-radius: 12px;
+    line-height: 50px;
+    padding: 15px;
+ }
+ .paragrafo-pai{
+    border-radius: 24px;
+    display: flex;
+    background-color: lightgrey;
+    padding: 10px;
+    flex-flow: column;
+    align-items: center;
+    gap: 8px;
+    width: 65%;
+    
+ }
+ .paragrafo{
+    display: flex;
+    
+    flex-flow: row-reverse;
+    gap: 15px;
+
  }
